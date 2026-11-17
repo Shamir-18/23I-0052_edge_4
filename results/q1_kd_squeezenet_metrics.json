@@ -1,0 +1,13 @@
+{
+  "model": "squeezenet",
+  "variant": "kd",
+  "dataset": "cifar100",
+  "epochs": 20,
+  "temperature": 4.0,
+  "alpha": 0.7,
+  "feature_beta": 2.0,
+  "final_test_acc": 0.711,
+  "params_M": 0.77,
+  "train_time_min": 6.3,
+  "checkpoint": "checkpoints/q1_kd_squeezenet.pth"
+}

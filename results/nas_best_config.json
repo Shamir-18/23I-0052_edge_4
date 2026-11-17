@@ -1,0 +1,42 @@
+{
+  "config": {
+    "resolution": 32,
+    "stem_channels": 32,
+    "stages": [
+      {
+        "block": "conv",
+        "kernel": 3,
+        "channels": 64,
+        "blocks": 3,
+        "activation": "relu6"
+      },
+      {
+        "block": "dwsep",
+        "kernel": 7,
+        "channels": 128,
+        "blocks": 3,
+        "activation": "leaky_relu"
+      },
+      {
+        "block": "dwsep",
+        "kernel": 5,
+        "channels": 96,
+        "blocks": 3,
+        "activation": "silu"
+      }
+    ]
+  },
+  "search_val_acc": 0.7626,
+  "score": 0.7071,
+  "hardware": {
+    "params_M": 0.1924,
+    "size_mb": 0.8141,
+    "latency_ms": 5.628,
+    "peak_mem_mb": 1.294
+  },
+  "constraints": {
+    "max_latency_ms": 8.0,
+    "max_size_mb": 2.0,
+    "max_peak_mem_mb": 20.0
+  }
+}

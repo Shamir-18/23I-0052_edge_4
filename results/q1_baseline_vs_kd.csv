@@ -1,0 +1,5 @@
+model,params_M,baseline_acc,kd_acc,final_acc,kd_gain,baseline_train_min,kd_train_min
+resnet50 (teacher),23.71,,,0.8248,,,
+mobilenetv2,2.35,0.7895,0.7888,,-0.0007,5.11,9.08
+squeezenet,0.77,0.7199,0.711,,-0.0089,2.16,6.3
+efficientnet_lite0,3.5,0.8039,0.8175,,0.0136,5.79,9.79

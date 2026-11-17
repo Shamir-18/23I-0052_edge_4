@@ -1,0 +1,13 @@
+{
+  "model": "efficientnet_lite0",
+  "variant": "kd",
+  "dataset": "cifar100",
+  "epochs": 20,
+  "temperature": 4.0,
+  "alpha": 0.7,
+  "feature_beta": 2.0,
+  "final_test_acc": 0.8175,
+  "params_M": 3.5,
+  "train_time_min": 9.79,
+  "checkpoint": "checkpoints/q1_kd_efficientnet_lite0.pth"
+}

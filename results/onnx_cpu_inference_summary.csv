@@ -1,0 +1,8 @@
+model,dataset,test_acc,latency_ms_p50_1thread,latency_ms_p95_1thread
+q1_efficientnet_lite0_baseline.onnx,cifar100,0.8035,2.487,2.755
+q1_efficientnet_lite0_kd.onnx,cifar100,0.8176,2.522,2.963
+q1_mobilenetv2_baseline.onnx,cifar100,0.7894,2.002,2.351
+q1_mobilenetv2_kd.onnx,cifar100,0.7886,2.05,2.84
+q1_squeezenet_baseline.onnx,cifar100,0.7198,1.075,1.267
+q1_squeezenet_kd.onnx,cifar100,0.7112,1.116,1.288
+q2_nas_best.onnx,cifar10,0.9009,2.139,2.416

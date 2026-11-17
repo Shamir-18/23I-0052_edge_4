@@ -1,0 +1,2 @@
+model,onnx_file,size_mb,max_abs_diff_vs_pytorch,prediction_agreement
+nas_best,onnx_models/q2_nas_best.onnx,0.777,9.54e-06,1.0

@@ -1,0 +1,9 @@
+{
+  "model": "resnet50_teacher",
+  "dataset": "cifar100",
+  "epochs": 15,
+  "final_test_acc": 0.8248,
+  "params_M": 23.71,
+  "train_time_min": 8.05,
+  "checkpoint": "checkpoints/q1_teacher_resnet50.pth"
+}

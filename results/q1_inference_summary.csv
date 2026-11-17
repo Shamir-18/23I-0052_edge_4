@@ -1,0 +1,7 @@
+model,variant,test_acc
+mobilenetv2,baseline,0.7894
+mobilenetv2,kd,0.7886
+squeezenet,baseline,0.7198
+squeezenet,kd,0.7112
+efficientnet_lite0,baseline,0.8035
+efficientnet_lite0,kd,0.8176

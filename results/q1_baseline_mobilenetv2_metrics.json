@@ -1,0 +1,10 @@
+{
+  "model": "mobilenetv2",
+  "variant": "baseline",
+  "dataset": "cifar100",
+  "epochs": 20,
+  "final_test_acc": 0.7895,
+  "params_M": 2.35,
+  "train_time_min": 5.11,
+  "checkpoint": "checkpoints/q1_baseline_mobilenetv2.pth"
+}

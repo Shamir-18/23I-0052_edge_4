@@ -1,0 +1,13 @@
+{
+  "model": "mobilenetv2",
+  "variant": "kd",
+  "dataset": "cifar100",
+  "epochs": 20,
+  "temperature": 4.0,
+  "alpha": 0.7,
+  "feature_beta": 2.0,
+  "final_test_acc": 0.7888,
+  "params_M": 2.35,
+  "train_time_min": 9.08,
+  "checkpoint": "checkpoints/q1_kd_mobilenetv2.pth"
+}
